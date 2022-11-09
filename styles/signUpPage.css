@@ -1,0 +1,21 @@
+#container {
+  display: flex;
+}
+form {
+  width: 10%;
+}
+*{
+    color: rgb(214, 210, 205);
+    outline-color: initial;
+    font-family: "Means Web",Georgia,Times,"Times New Roman",serif;
+}
+.padd-input {
+    min-height: 46px;
+    font-size: 1.7rem;
+    line-height: 20px;
+    padding: 0 15px;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
