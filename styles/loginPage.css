@@ -1,0 +1,97 @@
+#container {
+  display: flex;
+}
+form {
+  width: 10%;
+}
+* {
+  font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+}
+.marg-input {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+.padd-input {
+  min-height: 46px;
+  font-size: 1.7rem;
+  line-height: 20px;
+  padding: 0 15px;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+.login-block {
+  padding: 50px;
+  align-items: center;
+}
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  line-height: 24px;
+}
+#message {
+  display: none;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.login-btn {
+  width: 335px;
+  background-color: #4296cb;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+.input-box {
+  display: flex;
+}
+.incorrect{
+    display: none;
+
+}
+.sky-blue {
+    color: #4296cb;
+    border-bottom: 1px solid #4296cb;
+}
