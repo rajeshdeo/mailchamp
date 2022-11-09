@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;;
+}
+#navbar{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    align-items: center;   
+    cursor: pointer;
+}
+#navbar>div>div:hover{
+    color:#007c89;
+}
+
+#left-nav{
+    display: flex;
+    height: auto;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#mid-nav{
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+#mid-nav img{
+    width:70%;
+    height: 90px;
+    margin-left: 30%;
+}
+
+#right-nav{
+    display: flex;
+    height: 100%;
+    width: 14%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 5%;    
+}
+
+.sale{
+    display: flex;
+    justify-content: end;
+}
+#nav-btn{
+    display: flex;
+    width: 17%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.icon{
+    font-size: 20px;
+}
+
+.btn1{
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid;
+    transition: ease-out 0.2s;
+}
+
+.btn1:hover{
+    /* background-color: #007c89; */
+    box-shadow: inset 100px 0 0 0 black;
+    color: white;
+}
+
+.btn2{
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 white;
+    background-color: yellow;
+}
+
+.btn2:hover{
+    box-shadow: inset 100px 0 0 0 green;
+    color: black;
+    
+}
+.dropdown{
+    font-size: 18px;
+    float: left;
+    overflow: hidden;
+}
+.dropdown:hover .dropdown-con {
+    display: block;
+  } 
+
+.dropdown-con{
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    width: 20px;
+    text-align: left;
+    padding-left: 20px ;
+    color: black;
+  }
+  .dropdown-con>div p:hover{
+    color:#007c89;
+  }
+  .dropdown-con>div h6:hover{
+    color:#007c89;
+  }
+
+  #text h6{
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  #text p{
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .line{
+    border-bottom: 1px solid black;
+    width:90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  #text{
+    height:600px;
+    overflow-y: scroll;
+  }
+  #p{
+    margin-top: -20px;
+    width: 90%;
+    line-height: 20px;
+  }
+  #see{
+    color: #007c89;
+  }
