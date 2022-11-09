@@ -135,6 +135,7 @@ body{
   #text{
     height:600px;
     overflow-y: scroll;
+    
   }
   #p{
     margin-top: -20px;
