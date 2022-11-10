@@ -36,39 +36,7 @@ div {
   vertical-align: baseline;
   line-height: 24px;
 }
-#message {
-  display: none;
-  position: relative;
-  padding: 20px;
-  margin-top: 10px;
-}
 
-#message p {
-  padding: 10px 35px;
-  font-size: 18px;
-}
-
-/* Add a green text color and a checkmark when the requirements are right */
-.valid {
-  color: green;
-}
-
-.valid:before {
-  position: relative;
-  left: -35px;
-  content: "✔";
-}
-
-/* Add a red text color and an "x" when the requirements are wrong */
-.invalid {
-  color: red;
-}
-
-.invalid:before {
-  position: relative;
-  left: -35px;
-  content: "✖";
-}
 .login-btn {
   width: 335px;
   background-color: #4296cb;
@@ -87,11 +55,13 @@ div {
 .input-box {
   display: flex;
 }
-.incorrect{
-    display: none;
-
+.incorrect {
+  display: none;
 }
 .sky-blue {
-    color: #4296cb;
-    border-bottom: 1px solid #4296cb;
+  color: #4296cb;
+}
+.botom-line{
+  border-bottom: 1px solid #4296cb;
+
 }

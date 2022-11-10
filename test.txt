@@ -1,4 +1,27 @@
 Rajesh
 Brijesh
 Ronit
-prathmesh
+prathmesh  {
+
+// const login_api = `https://masai-api-mocker.herokuapp.com/auth/login`;
+
+    // const response = await fetch(login_api, {
+    //   method: "POST",
+    //   body: JSON.stringify(login_data),
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // });
+
+  //   let data = await response.json();
+  //   errr = data.error;
+  //   console.log("error:", errr);
+  //   if(errr==true){
+  //       let incorrect = document.getElementById('incorrect');
+  //       incorrect.style.display='block';
+  //       incorrect.style.color='red';
+  //   }else{
+  //       redirectToSignUp();
+  //   }
+
+}
