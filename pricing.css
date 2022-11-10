@@ -1,0 +1,18 @@
+body{
+    /* font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;; */
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+tr{
+    width: 20%;
+    margin: auto;
+    border: 2px solid red;
+}
+
+/* #pointer{
+    cursor: pointer;
+} */
