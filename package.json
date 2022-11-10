@@ -1,0 +1,19 @@
+{
+  "name": "offbeat-need-8210",
+  "version": "1.0.0",
+  "description": "mailchamp athentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshdeo/offbeat-need-8210.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeshdeo/offbeat-need-8210/issues"
+  },
+  "homepage": "https://github.com/rajeshdeo/offbeat-need-8210#readme"
+}
