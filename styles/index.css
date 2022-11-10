@@ -1,0 +1,153 @@
+
+        body{
+            margin:0px;
+            font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+            padding:0px;
+            
+        }
+        .turn_emails_div{
+            width: 40%;
+            text-align: center;
+            margin: auto;
+        }
+        .turn_emails_revenue{
+            font-weight: 300;
+            font-family: Means Web,Georgia,Times,Times New Roman,serif;
+            color: #241c15;
+            letter-spacing: -.0625rem;
+            
+        }
+        .win_new_customers{
+            font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+            letter-spacing: -.02rem;
+            color: #241c15;
+            line-height: 1.5;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        .button{
+            width:120px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: rgb(255,224,27);
+            border: 1px solid black;
+            cursor: pointer;
+           
+        }
+        .sign_up:hover{
+            
+            transition: bottom .3s cubic-bezier(.5,2.5,.7,.7);
+        }
+
+        /* image box */
+        .convert_with_animation{
+            width: 99%;
+            display: flex;
+            grid-template-columns: repeat(4,1fr);
+            
+        }
+       
+        a{
+            text-decoration: none;
+        }
+        .convert_automation{
+            position: relative;
+            bottom:-100px;
+            padding-left: 40px;
+            
+            color:black;
+            text-decoration: none;
+            z-index: 5;
+        }
+        
+        .convert_automation:hover{
+            text-decoration: underline;
+        }
+        .image_div{
+            overflow: hidden;
+            transition: transform 1.1s; /* Animation */
+            width:335px;
+            height: 490px;
+            /* border: 1px solid red; */
+        }
+
+        .four_image{
+           
+            width: 100%;
+           
+        }
+        .four_image:hover{
+            transform: scale(1.01);
+        }
+        
+        .send_the_right1 ,.send_the_right2,.send_the_right3,.send_the_right4{
+            padding: 30px;
+            font-size: 18px;
+            /* font-weight: 200; */
+            
+            line-height: 25px;
+            word-spacing: 1px;
+            height: 150px;
+            background-color:rgb(217,149,54) ;
+        }
+        .send_the_right2{
+            background-color: rgb(231,183,95);
+        }
+        .send_the_right3{
+            background-color: rgb(253,248,234);
+        }
+        .send_the_right4{
+            background-color: rgb(255,255,255);
+        }
+
+        .image_section{
+            /* height:250px; */
+            width:100%; 
+            /* margin-bottom: 80px; */
+            background-color: black;
+            /* border: 1px solid red;  */
+            color:white;
+        }
+        .email_marketing_image{
+            width: 70%;
+            margin: auto;
+        }
+        .email_marketing_image>img{
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 30px;
+        }
+        #para_div_image{
+            font-size: 24px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            word-spacing: 1px;
+            line-height: 32px;
+            padding-bottom: 50px;
+            
+        }
+        .right_plan_section{
+            margin-top: -25px;
+            background-color: rgb(246,246,244);
+            width: 100%;
+        }
+        .mail_champ_recommendations{
+            width:90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .mail_champ{
+            border: 1px solid gray;
+            padding: 20px;
+            color:black
+            
+        }
+        .mail_champ:hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        li{
+            text-decoration:underline;
+        }
+    
