@@ -1,0 +1,121 @@
+.footer{
+    width: 100%;
+    background-color: rgb(231,183,95);
+    /* height: 500px; */
+}
+.related_links{
+    height: 110px;
+    border-bottom: 1px solid rgb(77, 76, 76);
+    /* padding: 20px; */
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    font-size: 18px;
+    /* margin-bottom: 40px; */
+}
+.related_links>a{
+    color: black;
+    font-size: 14px;
+    text-decoration: underline;
+    padding: 5px;
+}
+.related_links>a:hover{
+    background-color: rgb(245, 219, 48);
+}
+.products_section_div{
+    padding: 80px;
+    border-bottom: 1px solid rgb(77, 76, 76);
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom: 0px;
+    /* border-bottom: 1px solid gray; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.products>ul{
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 35px;
+}
+.products>ul li{
+    font-size: 14px;
+    color: black;
+    line-height: 40px;
+}
+.products>ul a{
+    text-decoration: underline;
+    color: black;
+}
+a>li:hover{
+    background-color: rgb(245, 219, 48);
+    padding: 0px;
+}
+.mailchamp_presents{
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 2px;
+    margin-bottom: -25px;
+}
+.mailchamp_presents>h2{
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+
+.last_footer_part{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    
+}
+.last_footer_part>div:nth-child(1){
+    /* width: 750px; */
+    /* border: 1px solid; */
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+.last_footer_part>div:nth-child(1) img{
+    width: 100px;
+}
+.last_footer_part>div:nth-child(2){
+    /* width: 750px; */
+    /* border: 1px solid; */
+    display: flex;
+    gap:30px;
+}
+.last_footer_part>div:nth-child(3){
+    width: 300px;
+    /* border: 1px solid; */
+    font-size: 14px;
+    line-height: 25px;
+    word-spacing: 2px;
+    
+}
+
+.option_last_part{
+    cursor: pointer;
+    background-color: rgb(231,183,95);
+    height: 35px;
+    width: 100px;
+}
+.option_last_part option{
+    background-color: white;
+    cursor: pointer;
+}
+
+.last_para_part a{
+    color:black;
+    font-weight: bold;
+    
+}
+.last_para_part a:hover{
+    text-decoration: underline;
+}
