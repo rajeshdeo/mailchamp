@@ -23,6 +23,33 @@
         <div>Transactional Email</div>
     </div>
 
+    <div id="sort_div">
+        <div>
+            <div>How many contacts do you have?</div>
+            <div>
+                <select name="contacts" id="contacts">
+                    <option value="500">500</option>
+                    <option value="1500">1,500</option>
+                    <option value="2500">2,500</option>
+                    <option value="5000">5,000</option>
+                    <option value="10000">10,000</option>
+                    <option value="15000">15,000</option>
+                    <option value="20000">20,000</option>
+                    <option value="25000">25,000</option>
+                    <option value="30000">30,000</option>
+                    <option value="40000">40,000</option>
+                    <option value="50000">50,000</option>
+                    <option value="75000">75,000</option>
+                    <option value="100000">100,000</option>
+                    <option value="130000">130,000</option>
+                    <option value="150000">150,000</option>
+                    <option value="200000">200,000</option>
+                    <option value="250000">250,000+</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
     <table>
         <thead>
 
@@ -74,49 +101,49 @@
             <tr class="price_col">
                 <td></td>
                 <td>
-                    <p>Starts at</p>
+                    <p id="p1_text">Starts at</p>
                     <div>
-                        <p>₹</p>
-                        <h1>23,000</h1>
+                        <p id="p1_div">₹</p>
+                        <h1 id="p1">23,000</h1>
                     </div>
-                    <p>/month*</p>
-                    <button>Buy Now</button>
+                    <p id="p1_month">/month*</p>
+                    <button id="p1_button">Buy Now</button>
                     <p>*<a href="">Overages</a> apply if contact or email send limit is exceeded. <a href="">Learn
                             more</a></p>
                 </td>
 
                 <td>
-                    <p>Starts at</p>
-                    <div>
+                    <p id="p2_text">Starts at</p>
+                    <div id="p2_div">
                         <p>₹</p>
-                        <h1>1,150</h1>
+                        <h1 id="p2">1,150</h1>
                     </div>
-                    <p>/month*</p>
-                    <button>Buy Now</button>
+                    <p id="p2_month">/month*</p>
+                    <button id="p2_button">Buy Now</button>
                     <p>*<a href="">Overages</a> apply if contact or email send limit is exceeded. <a href="">Learn
                             more</a></p>
                 </td>
 
                 <td>
-                    <p>Starts at</p>
-                    <div>
+                    <p id="p3_text">Starts at</p>
+                    <div id="p3_div">
                         <p>₹</p>
-                        <h1>700</h1>
+                        <h1 id="p3">700</h1>
                     </div>
-                    <p>/month*</p>
-                    <button>Buy Now</button>
+                    <p id="p3_month">/month*</p>
+                    <button id="p3_button">Buy Now</button>
                     <p>*<a href="">Overages</a> apply if contact or email send limit is exceeded. <a href="">Learn
                             more</a></p>
                 </td>
 
                 <td>
-                    <p>Starts at</p>
-                    <div>
+                    <p id="p4_text">Starts at</p>
+                    <div id="p4_div">
                         <p>₹</p>
                         <h1>0</h1>
                     </div>
-                    <p>/month*</p>
-                    <button>Sign Up Free</button>
+                    <p id="p4_month">/month*</p>
+                    <button id="p4_button">Sign Up Free</button>
                     <p>*<a href="">Sending</a> will be paused if contact or email send limit is exceeded. <a
                             href="">Learn more</a></p>
                 </td>
@@ -203,7 +230,7 @@
                 <td>5 Roles</td>
                 <td>4 Roles</td>
                 <td>2 Roles</td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
@@ -211,7 +238,7 @@
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
@@ -219,7 +246,7 @@
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
@@ -227,7 +254,7 @@
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
@@ -235,190 +262,180 @@
                 <td>Enhanced</td>
                 <td>Enhanced</td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Pre-built Journeys</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Custom-Coded Templates</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Predictive Segmentation</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Content Optimizer</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Send Time Optimization</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Dynamic Content</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Multivariate Testing</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Comparative Reporting</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
             <tr>
                 <td><a href="">Advanced Segmentation</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
-            <tr>
+            <tr id="last_border">
                 <td><a href="">Dedicated Onboarding Specialist</a></td>
                 <td><i class="fa-solid fa-check"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
-                <td><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
+                <td class="cross"><i class="fa-solid fa-xmark"></i></td>
             </tr>
 
-            <tr>
+            <tr id="last_row">
                 <td></td>
                 <td><a href="">About Premium</a></td>
                 <td><a href="">About Standard</a></td>
                 <td><a href="">About Essentials</a></td>
                 <td><a href="">About Free</a></td>
             </tr>
-
         </tbody>
-
     </table>
-    <button>Compare all features</button>
 
     <div>
+        <button>Compare all features</button>
+    </div>
+
+    <div class="bottom_div">
         <div>
             <h2>Also included: Free tools for getting your business online
             </h2>
-            <p>All Marketing plans come with <a href="">Free website and commerce features</a>, so you can build your
-                dream online presence. But if you want more advanced tools for selling and scheduling, try combining
-                your Marketing plan with a paid Websites & Commerce plan.
+            <p>All Marketing plans come with <a href="">Free website and commerce features</a>, so you can build your dream online presence. But if you want more advanced tools for selling and scheduling, try combining your Marketing plan with a paid Websites & Commerce plan.
             </p>
             <button>See websites & Commerce plans</button>
         </div>
         <div>
             <h2>Prefer to pay as you go?</h2>
-            <p>Instead of paying a monthly recurring charge, you can buy email credits as needed through our Pay As You
-                Go plan. It's best for infrequent senders.</p>
+            <p>Instead of paying a monthly recurring charge, you can buy email credits as needed through our Pay As You Go plan. It's best for infrequent senders.</p>
             <button>Learn More</button>
         </div>
     </div>
 
-    <div>
+    <div class="bottom_div">
         <div>
             <h2>Two-factor authentication discount </h2>
-            <p>At Mailchimp, we’re serious about security. We offer a 10% discount for 1 month when you add two-factor
-                authentication to your Mailchimp account with an app like Google Authenticator or SMS two-factor
-                authentication.</p>
+            <p>At Mailchimp, we’re serious about security. We offer a 10% discount for 1 month when you add two-factor authentication to your Mailchimp account with an app like Google Authenticator or SMS two-factor authentication.</p>
             <p>Restrictions apply. See our full <a href="">terms and conditions</a>.</p>
             <button>Get started</button>
         </div>
         <div>
             <h2>Rates for nonprofits and charities</h2>
-            <p>Mailchimp offers a 15% discount to nonprofits and charities. To request the discount, sign up for a free
-                account, and contact our Billing team with your username and a link to your organization’s website.</p>
+            <p>Mailchimp offers a 15% discount to nonprofits and charities. To request the discount, sign up for a free account, and contact our Billing team with your username and a link to your organization’s website.</p>
             <button>Get started</button>
         </div>
     </div>
 
-    <div>
+    <div id="faq_div">
         <h2>FAQs</h2>
         <div>
             <div>
                 <h3>What payment methods do you offer?</h3>
-                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                <p><i class="fa-solid fa-circle-plus"></i></p>
             </div>
-            <p>We accept all major credit cards, PayPal, and (in select countries) direct debit. We also support
-                transactions in a range of currencies.</p>
+            <p>We accept all major credit cards, PayPal, and (in select countries) direct debit. We also support transactions in a range of currencies.</p>
         </div>
 
         <div>
             <div>
                 <h3>How do I switch to a different plan?</h3>
-                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                <p><i class="fa-solid fa-circle-plus"></i></p>
             </div>
-            <p>You can switch to a new plan at any time by going to the Billing page in your account. Select the plan
-                you’d like to switch to and immediately start using new features.</p>
+            <p>You can switch to a new plan at any time by going to the Billing page in your account. Select the plan you’d like to switch to and immediately start using new features.</p>
         </div>
 
         <div>
             <div>
                 <h3>Can I buy credits instead?</h3>
-                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                <p><i class="fa-solid fa-circle-plus"></i></p>
             </div>
-            <p>Yes. If you send emails infrequently and prefer to pay as you go, you can buy email credits as an
-                alternative to a monthly plan.</p>
+            <p>Yes. If you send emails infrequently and prefer to pay as you go, you can buy email credits as an alternative to a monthly plan.</p>
             <p><a href="">See how it works</a></p>
         </div>
 
         <div>
             <div>
                 <h3>Do you have pricing for high-volume email senders?</h3>
-                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                <p><i class="fa-solid fa-circle-plus"></i></p>
             </div>
-            <p>We do indeed. If you have more than 200,000 contacts, we have a high-volume plan that can meet your
-                needs.</p>
+            <p>We do indeed. If you have more than 200,000 contacts, we have a high-volume plan that can meet your needs.</p>
             <p><a href="">Contact us for pricing</a></p>
         </div>
 
         <div>
             <div>
                 <h3>What happens if I hit my contact or sending limit?</h3>
-                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                <p><i class="fa-solid fa-circle-plus"></i></p>
             </div>
-            <p>Mailchimp will automatically bill you for your overages. As long as you pay for your overages on time, we
-                will not stop your campaigns or pause your account.</p>
+            <p>Mailchimp will automatically bill you for your overages. As long as you pay for your overages on time, we will not stop your campaigns or pause your account.</p>
         </div>
 
     </div>
 
-    <h2>You’ll be in good company</h2>
-    <div>
+    <h2 id="last_title">You’ll be in good company</h2>
+    <div id="last_div">
         <div>
             <img src="https://eep.io/images/yzco4xsimv0y/6EIjMFs2ZyQWsmOOYc4cGe/19d62aa558c8f5d4c4bf222e7e36571b/EastFork.png?w=260&fm=webp&q=70"
                 alt="">
@@ -440,3 +457,5 @@
 </body>
 
 </html>
+
+<script src="./pricing.js"></script>
