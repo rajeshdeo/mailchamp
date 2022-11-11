@@ -60,7 +60,7 @@ tr {
 }
 
 thead>tr>td {
-    border-right: 1px solid red;
+    border-right: 1px solid #c4c3c1;
     margin: 0px;
 }
 
@@ -69,12 +69,12 @@ tbody>tr:nth-child(odd) {
 }
 
 tbody>tr>td {
-    border-right: 1px solid blue;
+    border-right: 1px solid #c3c1bf;
     margin: 0px;
 }
 
 thead>tr:nth-child(1)>td {
-    border: 1px solid red;
+    border: 1px solid #c4c3c1;
     border-bottom: none;
     border-left: none;
 }
@@ -145,6 +145,7 @@ td {
     font-weight: 600;
     line-height: 22px;
     color: #241c15;
+    border: 0.85px solid black;
 }
 
 .price_col>td>p>a:first-child{
@@ -165,5 +166,231 @@ td {
 }
 
 .price_col>td>p>a:last-child:hover{
-    border-bottom: 1px dashed #f6f6f4;
+    border-bottom: 1px dashed hsla(175, 85%, 29%, 0.39);
 }
+
+tbody>tr>td{
+    font-size: 14px;
+    line-height: 19px;
+    color: #241c15;
+    padding: 10px 30px;
+}
+
+tbody>tr>td>a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #241c15;
+    border-bottom: 1px dashed;
+}
+
+tbody>tr>td>a:hover{
+    border-bottom: 1px dashed hsla(175, 85%, 29%, 0.39);
+}
+
+tbody>tr>td>i{
+    /* background-color: red; */
+    font-size: 18px;
+}
+
+.cross>i{
+    font-size: 20px;
+}
+
+.cross{
+    color: #b8b6b2;
+}
+
+#last_row>td{
+    background-color: white;
+    border-right: none;
+}
+
+#last_row>td>a{
+    border-bottom: 1px solid;
+    /* text-decoration: underline; */
+    font-weight: 600;
+}
+
+#last_row>td>a:hover{
+    background-color: #ffe01b;
+}
+
+#last_border>td{
+    border-bottom: 1px solid #c4c3c1;
+}
+
+#last_border>td:first-child{
+    border-bottom: none;
+}
+
+table+div{
+    display: flex;
+    width: 15.7%;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+table+div>button{
+    border-radius: 30px;
+    background-color: white;
+    /* text-align: center; */
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #241c15;
+}
+
+.bottom_div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    /* border: solid; */
+}
+
+.bottom_div>div{
+    /* flex: 1; */
+    width: 50%;
+    height: auto;
+    padding: 0px 40px;
+   
+}
+
+.bottom_div>div:first-child{
+    border-right: 1px solid #4d4640;
+}
+
+.bottom_div>div>h2{
+    font-size: 32px;
+    line-height: 40px;
+    color: #241c15;
+    font-weight: 400;
+}
+
+.bottom_div>div>p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #403b3b;
+}
+
+.bottom_div>div>p>a{
+    color: #403b3b;
+}
+
+.bottom_div>div>p>a:hover{
+    background-color: #ffe01b;
+}
+
+.bottom_div>div>button{
+    border-radius: 30px;
+    background-color: white;
+    /* text-align: center; */
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #241c15;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+#faq_div{
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+#faq_div>h2{
+    font-size: 32px;
+    line-height: 40px;
+    color: #241c15;
+    font-weight: 400;
+}
+
+#faq_div>div{
+    border-top: 1px solid #4d4640;
+    padding: 20px 40px;
+}
+
+#faq_div>div:last-child{
+    border-bottom: 1px solid #4d4640;
+}
+
+#faq_div>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#faq_div>div>div>h3{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #241c15;
+    font-weight: 300;
+}
+
+#faq_div>div>div>p{
+    color: #6c6762;
+}
+
+#faq_div>div>div>p:hover{
+    cursor: pointer;
+}
+
+#faq_div>div>div>h3:hover{
+    text-decoration: underline;
+}
+
+#faq_div>div>p{
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403b3b;
+    width: 60%;
+    margin-top: 5px;
+}
+
+#faq_div>div>p>a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #403b3b;
+}
+
+#faq_div>div>p>a:hover{
+    background-color: #ffe01b;
+}
+
+#last_title{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #241c15;
+}
+
+#last_div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+#last_div>div{
+    display: flex;
+    /* border: solid; */
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+#last_div>div>img{
+    width: 60%;
+}
+
+
