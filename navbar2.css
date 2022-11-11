@@ -118,11 +118,12 @@ body{
   }
 
   #text h6{
-    font-size: 22px;
+    font: 18px  "Means Web", Georgia, Times, "Times New Roman", serif;
+
     margin-top:-2px ;
   }
   #text p{
-    font-size:13px;
+    font:13px  Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
     margin-top: 40px;
   }
 
@@ -316,3 +317,157 @@ body{
 
 
 
+.hover:hover .con5 {
+  display: block;
+} 
+.con5{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -250px;
+  line-height: 20px;
+}
+.con5{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.div-img{
+  width: 90%;
+}
+
+.div{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.hover:hover .con6 {
+  display: block;
+} 
+.con6{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -450px;
+  line-height: 20px;
+}
+.con6{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+
+
+.hover:hover .con7 {
+  display: block;
+} 
+.con7{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -510px;
+  line-height: 20px;
+}
+.con7{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.hover:hover .con8 {
+  display: block;
+} 
+.con8{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -140px;
+  line-height: 20px;
+}
+.con8{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+
+.hover:hover .con9 {
+  display: block;
+} 
+.con9{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -250px;
+  line-height: 20px;
+}
+.con9{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+
+
+.hover:hover .con10 {
+  display: block;
+} 
+.con10{
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+  width: 20px;
+  text-align: left;
+  padding-left: 20px ;
+  color: black;
+  margin-left: 380px;
+  margin-top: -450px;
+  line-height: 20px;
+}
+.con10{
+  height: 600px;
+  overflow-y: scroll;
+}
