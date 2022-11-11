@@ -24,7 +24,7 @@ contacts.onchange = () => {
 
     let x = contacts.value;
 
-    if(x > 500){
+    if (x > 500) {
         p4_div.style.display = "none";
         p4_month.style.display = "none";
         p4_text.innerText = "You've selected more contacts than this plan allows"
@@ -36,85 +36,474 @@ contacts.onchange = () => {
         p4_button.style.fontWeight = "400";
     }
 
-    if(x == 500){
+    if (x == 500) {
         p1.innerText = "23,000";
         p2.innerText = "1,150";
-        p3.innerText = "770"
-    } else if(x == 1500){
+        p3.innerText = "770";
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 1500) {
         p1.innerText = "23,000";
         p2.innerText = "3,850";
         p3.innerText = "1,500"
-    } else if(x == 2500){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 2500) {
         p1.innerText = "23,000";
         p2.innerText = "3,850";
         p3.innerText = "2,300"
-    } else if(x == 5000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 5000) {
         p1.innerText = "23,000";
         p2.innerText = "5,800";
         p3.innerText = "3,850";
-    } else if(x == 10000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 10000) {
         p1.innerText = "23,000";
         p2.innerText = "7,600";
         p3.innerText = "5,800";
-    } else if(x == 15000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 15000) {
         p1.innerText = "27,000";
         p2.innerText = "12,200";
         p3.innerText = "9,900";
-    } else if(x == 20000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 20000) {
         p1.innerText = "31,000";
         p2.innerText = "14,500";
         p3.innerText = "12,200";
-    } else if(x == 25000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 25000) {
         p1.innerText = "34,500";
         p2.innerText = "17,000";
         p3.innerText = "14,500";
-    } else if(x == 30000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 30000) {
         p1.innerText = "38,500";
         p2.innerText = "19,500";
         p3.innerText = "17,000";
-    } else if(x == 40000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 40000) {
         p1.innerText = "42,500";
         p2.innerText = "21,000";
         p3.innerText = "19,500";
-    } else if(x == 50000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 50000) {
         p1.innerText = "46,000";
         p2.innerText = "23,000";
         p3.innerText = "20,000";
-    } else if(x == 75000){
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
+        p3_div.style.display = "flex";
+        p3_month.style.display = "flex";
+        p3_text.innerText = "Starts at"
+        p3_button.innerText = "Buy Now";
+        p3_button.style.backgroundColor = "#ffe01b";
+        p3_button.style.border = "0.85px solid black";
+        p3_button.style.color = "#241c15";
+        p3_button.style.padding = "10px 50px";
+        p3_button.style.fontWeight = "600";
+
+    } else if (x == 75000) {
         p1.innerText = "50,000";
         p2.innerText = "31,000";
+        
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
 
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
-
         p3_button.innerText = "Contact limit exceeded";
         p3_button.style.backgroundColor = "#dbd9d2";
         p3_button.style.border = "none";
         p3_button.style.color = "#776d5e";
         p3_button.style.padding = "10px 22px";
         p3_button.style.fontWeight = "400";
-    } else if(x == 100000){
+    } else if (x == 100000) {
         p1.innerText = "54,000";
         p2.innerText = "38,500";
 
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
+        p2_div.style.display = "flex";
+        p2_month.style.display = "flex";
+        p2_text.innerText = "Starts at"
+        p2_button.innerText = "Buy Now";
+        p2_button.style.backgroundColor = "#ffe01b";
+        p2_button.style.border = "0.85px solid black";
+        p2_button.style.color = "#241c15";
+        p2_button.style.padding = "10px 50px";
+        p2_button.style.fontWeight = "600";
+
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
-
         p3_button.innerText = "Contact limit exceeded";
         p3_button.style.backgroundColor = "#dbd9d2";
         p3_button.style.border = "none";
         p3_button.style.color = "#776d5e";
         p3_button.style.padding = "10px 22px";
         p3_button.style.fontWeight = "400";
-    } else if(x == 130000){
+    } else if (x == 130000) {
         p1.innerText = "61,500";
 
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
         p2_div.style.display = "none";
         p2_month.style.display = "none";
         p2_text.innerText = "You've selected more contacts than this plan allows"
-        
+
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
@@ -132,13 +521,23 @@ contacts.onchange = () => {
         p3_button.style.color = "#776d5e";
         p3_button.style.padding = "10px 22px";
         p3_button.style.fontWeight = "400";
-    } else if(x == 150000){
+    } else if (x == 150000) {
         p1.innerText = "69,000";
-        
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
         p2_div.style.display = "none";
         p2_month.style.display = "none";
         p2_text.innerText = "You've selected more contacts than this plan allows"
-        
+
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
@@ -156,13 +555,23 @@ contacts.onchange = () => {
         p3_button.style.color = "#776d5e";
         p3_button.style.padding = "10px 22px";
         p3_button.style.fontWeight = "400";
-    } else if(x == 200000){
+    } else if (x == 200000) {
         p1.innerText = "84,500";
-        
+
+        p1_div.style.display = "flex";
+        p1_month.style.display = "flex";
+        p1_text.innerText = "Starts at"
+        p1_button.innerText = "Buy Now";
+        p1_button.style.backgroundColor = "#ffe01b";
+        p1_button.style.border = "0.85px solid black";
+        p1_button.style.color = "#241c15";
+        p1_button.style.padding = "10px 50px";
+        p1_button.style.fontWeight = "600";
+
         p2_div.style.display = "none";
         p2_month.style.display = "none";
         p2_text.innerText = "You've selected more contacts than this plan allows"
-        
+
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
@@ -180,7 +589,7 @@ contacts.onchange = () => {
         p3_button.style.color = "#776d5e";
         p3_button.style.padding = "10px 22px";
         p3_button.style.fontWeight = "400";
-    } else if(x == 250000){
+    } else if (x == 250000) {
         p1_text.innerText = "Talk to Sales at"
         p1.innerText = "+1 (800) 330-4838";
         p1.style.lineHeight = "30px"
@@ -195,7 +604,7 @@ contacts.onchange = () => {
         p2_div.style.display = "none";
         p2_month.style.display = "none";
         p2_text.innerText = "You've selected more contacts than this plan allows"
-        
+
         p3_div.style.display = "none";
         p3_month.style.display = "none";
         p3_text.innerText = "You've selected more contacts than this plan allows"
