@@ -335,6 +335,10 @@ table+div>button{
     color: #6c6762;
 }
 
+#faq_div>div>div>p:last-child{
+    display: none;
+}
+
 #faq_div>div>div>p:hover{
     cursor: pointer;
 }

@@ -19,6 +19,7 @@ let p2_button = document.getElementById("p2_button");
 let p3_button = document.getElementById("p3_button");
 let p4_button = document.getElementById("p4_button");
 
+// Contacts Functionality
 let contacts = document.getElementById("contacts");
 contacts.onchange = () => {
 
@@ -626,4 +627,73 @@ contacts.onchange = () => {
 }
 
 
+// FAQs Functionality
+let f1 = document.getElementById("f1");
+let f1_minus = document.getElementById("f1_minus");
+let f1_div = document.getElementById("f1_div");
+f1.onclick = () => {
+    f1_div.style.display = "flex";
+    f1.style.display = "none";
+    f1_minus.style.display = "flex";
+}
+f1_minus.onclick = () => {
+    f1_div.style.display = "none";
+    f1.style.display = "flex";
+    f1_minus.style.display = "none";
+}
 
+let f2 = document.getElementById("f2");
+let f2_minus = document.getElementById("f2_minus");
+let f2_div = document.getElementById("f2_div");
+f2.onclick = () => {
+    f2_div.style.display = "flex";
+    f2.style.display = "none";
+    f2_minus.style.display = "flex";
+}
+f2_minus.onclick = () => {
+    f2_div.style.display = "none";
+    f2.style.display = "flex";
+    f2_minus.style.display = "none";
+}
+
+let f3 = document.getElementById("f3");
+let f3_minus = document.getElementById("f3_minus");
+let f3_div = document.getElementById("f3_div");
+f3.onclick = () => {
+    f3_div.style.display = "flex";
+    f3.style.display = "none";
+    f3_minus.style.display = "flex";
+}
+f3_minus.onclick = () => {
+    f3_div.style.display = "none";
+    f3.style.display = "flex";
+    f3_minus.style.display = "none";
+}
+
+let f4 = document.getElementById("f4");
+let f4_minus = document.getElementById("f4_minus");
+let f4_div = document.getElementById("f4_div");
+f4.onclick = () => {
+    f4_div.style.display = "flex";
+    f4.style.display = "none";
+    f4_minus.style.display = "flex";
+}
+f4_minus.onclick = () => {
+    f4_div.style.display = "none";
+    f4.style.display = "flex";
+    f4_minus.style.display = "none";
+}
+
+let f5 = document.getElementById("f5");
+let f5_minus = document.getElementById("f5_minus");
+let f5_div = document.getElementById("f5_div");
+f5.onclick = () => {
+    f5_div.style.display = "flex";
+    f5.style.display = "none";
+    f5_minus.style.display = "flex";
+}
+f5_minus.onclick = () => {
+    f5_div.style.display = "none";
+    f5.style.display = "flex";
+    f5_minus.style.display = "none";
+}
