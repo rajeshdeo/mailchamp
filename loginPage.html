@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/loginPage.css" />
-    <script src="https://kit.fontawesome.com/b1dda78bf2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b1dda78bf2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
     <div class="login-block">
       <div id="login-form">
         <h1>Log In</h1>
-        <h3>Need a Mailchamp account? <span class="sky-blue hover botom-line">Create an account</span></h3>
-        <form>
+        <p>
+          Need a Mailchamp account?
+          <span class="sky-blue hover botom-line">Create an account</span>
+        </p>
+        <form action="/action_page.php">
           <label>Username</label>
           <div class="input-box">
             <input
               type="text"
               id="login-username"
               class="padd-input marg-input"
+              required
             />
           </div>
+          <p class="match">Matched</p>
+          <p class="not-matched">Not-Matched</p>
+
           <label>Password</label>
           <div class="input-box">
             <input
@@ -29,25 +39,25 @@
               id="login-password"
               class="padd-input marg-input"
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
               required
             />
             <div id="eye">
-                <span
-            toggle="#password-field"
-            class="fa fa-fw fa-eye field-icon toggle-password"
-          ></span>
+              <span
+                toggle="#password-field"
+                class="fa fa-fw fa-eye field-icon toggle-password"
+              ></span>
             </div>
-            
           </div>
           <span id="incorrect" class="incorrect">Wrong Password</span>
+          <input type="submit" value="Login" id="login" class="login-btn">
         </form>
-
-        <button id="login" class="login-btn">Login</button>
-
-        
+        <div class="hide-print">  <p class="c-legalNotice lastUnit size1of1" data-analytics-tag="login-legal-notice"> ©2001–2022 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group, LLC. <a class="nowrap link-underline textcolor--secondary" href="https://mailchimp.com/legal/cookies/#optanon-toggle-display/" target="_blank" mc:track="" data-dojo-type="mojo/widgets/OneTrustModal" rel="noopener noreferrer" id="dijit__WidgetBase_0" lang="en" widgetid="dijit__WidgetBase_0">Cookie Preferences</a>, <a class="textcolor--secondary" href="https://www.intuit.com/privacy/statement/" target="_blank" mc:track="" rel="noopener noreferrer">Privacy</a>, and <a class="textcolor--secondary" href="https://mailchimp.com/legal/terms/" target="_blank" mc:track="" rel="noopener noreferrer">Terms</a>. </p> </div>
+      </div>
+      <div class="bg-image">
+        <img src="https://cdn-images.mailchimp.com/billboards/phpza0iJx.jpeg" alt="">
       </div>
     </div>
+    
 
     <!--  -->
     <!--  -->

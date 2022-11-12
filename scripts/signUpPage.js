@@ -62,6 +62,7 @@ let Register = () => {
 
   const name = regForm.name.value;
   const email = regForm.email.value;
+  console.log('email:', email)
   const username = regForm.username.value;
   const password = regForm.password.value;
   const mobile = regForm.mobile.value;
@@ -146,6 +147,23 @@ function redirectToLoginPage(){
   console.log("redirect to sign up page");
 }
 
+function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+function mouseOver() {
+  let hover_ = document.getElementById("login");
+  hover_.style.color = "#fff";
+}
+function mouseOut() {
+  let hover_ = document.getElementById("login");
+  hover_.style.color = "#db4a3c";
+}
+
 window.addEventListener("load", function () {
   let register = document.getElementById("register");
   register.onclick = () => {
@@ -155,4 +173,14 @@ window.addEventListener("load", function () {
   login_btn.onclick=()=>{
     redirectToLoginPage()
   }
+  login_btn.onmouseover = () => {
+    mouseOver();
+  };
+  login_btn.onmouseout = () => {
+    mouseOut();
+  };
+  let eye = document.getElementById("eye");
+  eye.onclick = () => {
+    myFunction();
+  };
 });
