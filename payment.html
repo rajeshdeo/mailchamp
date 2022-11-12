@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+crossorigin="anonymous"
+></script>
+    <title>Paymet</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <h2>Payment Method</h2>
+    <div id="container">
+        <div id="method">
+            <div>
+                <i id="dot" class="fa-regular fa-circle-dot"></i>
+                <div><img src="https://imgs.search.brave.com/nTh72Scf8HoLrXqKnxjPzSVuNsMHFs7k_d8K3Wz-WTw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5E/LWdsTmJtZHFJT1Zz/QTV2RVVtUEZ3SGFF/OCZwaWQ9QXBp" alt=""></div>
+
+                <div><img src="https://imgs.search.brave.com/qKrKW2oVaDUuIXIhN7pE4U8-UYJ_iPuHPla2HZBUI_I/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5D/UDZVVjM2a3g3bWZk/VHpsT0labVhBSGFF/SyZwaWQ9QXBp" alt=""></div>
+
+                <div><img src="https://imgs.search.brave.com/nO69EE4-ES5Y_0iYllAyWAApubyiD19VHLerAQDWndY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/ZWp4WkRIOGRUM1E3/cFE4R0JMVl9BSGFI/YSZwaWQ9QXBp" alt=""></div>
+
+                <div><img src="https://imgs.search.brave.com/Ze3JAjaqnqpgyXHvYdbURM_dPtdlpZutC9wv0EXTxMI/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5U/Um96eGdISF8xUkw5/ZUYwcVdLamhnSGFF/SyZwaWQ9QXBp" alt=""></div>
+
+                <div><img src="https://imgs.search.brave.com/2KluYdCPffttPC4-fqz9ubO5tVazua2b-BKpcQUc1Oo/rs:fit:905:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/d2E3Nml4bUZiUVNx/VjJELXBjZzBnSGFE/NCZwaWQ9QXBp" alt=""></div>
+            </div>
+            
+            <div>
+                <h5>Cards Number</h5>
+                <input type="text" name="" id="number" maxlength="20">  
+                <h4>Expiration date</h4>
+                <input id="date" type="tel" placeholder="MM-YY" maxlength="7">
+                <h4>Security code</h4>
+                <input type="text" placeholder="123" id="Security" maxlength="4" >
+            </div>
+        </div>
+        <div id="process">
+            <h2>Purchase summary</h2>
+            <p style="margin-left:50px;">Billed in <span><select name="" id="select">
+                <option value="">Indian Rupee</option>
+                <option value="">US Dollars  </option>
+            </select></span>
+                <p class="p">Standard plan<span id="i">$13.96 / month</span></p>
+                <p class="p">500 contacts*</p>
+                <p class="p">6,000 email sends*</p>
+                <p class="p">  Tax <span style="margin-left:62% ;">$2.51</span><p>
+                <p class="p">________________________________________</p>    
+
+                <p class="p"> <b>Total</b>  <span style="margin-left:58% ;"> <b>$16.47</b> </span></p>
+                <button id="btn">Pay Now</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./payment.js"></script>
+
