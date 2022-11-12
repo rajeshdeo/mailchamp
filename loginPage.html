@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/loginPage.css" />
+    <script src="https://kit.fontawesome.com/b1dda78bf2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-block">
+      <div id="login-form">
+        <h1>Log In</h1>
+        <h3>Need a Mailchamp account? <span class="sky-blue hover botom-line">Create an account</span></h3>
+        <form>
+          <label>Username</label>
+          <div class="input-box">
+            <input
+              type="text"
+              id="login-username"
+              class="padd-input marg-input"
+            />
+          </div>
+          <label>Password</label>
+          <div class="input-box">
+            <input
+              type="password"
+              id="login-password"
+              class="padd-input marg-input"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+            />
+            <div id="eye">
+                <span
+            toggle="#password-field"
+            class="fa fa-fw fa-eye field-icon toggle-password"
+          ></span>
+            </div>
+            
+          </div>
+          <span id="incorrect" class="incorrect">Wrong Password</span>
+        </form>
+
+        <button id="login" class="login-btn">Login</button>
+
+        
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+
+    <script src="./scripts/loginPage.js"></script>
+  </body>
+</html>

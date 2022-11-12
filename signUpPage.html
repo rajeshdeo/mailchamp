@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/signUpPage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="signup-block">
+        <div id="register-form">
+          <h1>Sign up for Mailchimp</h1>
+          <h3>Create a free account or <span class="sky-blue" id="login">login</span></h3>
+          <form id="reg_form">
+            <input type="text" id="name"
+            class="padd-input marg-input" placeholder="Name" />
+            <input  type="text" id="email" class="padd-input marg-input" placeholder="Email" />
+            <input type="text" id="username" class="padd-input marg-input" placeholder="Username" />
+            <input type="text" id="password" class="padd-input marg-input" placeholder="Password" />
+            <div id="message">
+              <ul class="message">
+                <li id="letter" class="invalid">
+                  <span>One lowercase character</span>
+                </li>
+                <li id="capital" class="invalid">
+                  <span>One uppercase character</span>
+                </li>
+                <li id="number" class="invalid"><span> One number</span></li>
+                <li id="char" class="invalid">
+                  <span> One spacial character</span>
+                </li>
+      
+                <li id="length" class="invalid">
+                  <span>8 characters minimum</span>
+                </li>
+              </ul>
+            </div>
+  
+            <input type="text" id="mobile" class="padd-input marg-input" placeholder="Mobile" />
+            <input type="text" id="description" class="padd-input marg-input" placeholder="Description" />
+          </form>
+  
+          <button id="register" class="signup-btn">Register</button>
+       
+        
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/signUpPage.js"></script>
