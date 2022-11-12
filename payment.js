@@ -15,4 +15,3 @@ function myfun(){
     } else{
         alert("Payment Unsuccesfull")
     }
-}
