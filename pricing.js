@@ -1,3 +1,14 @@
+import {navbar} from "./components/navbar.js"
+import { footer } from "./components/footer.js"
+
+let nav_div = document.getElementById("navbar");
+nav_div.innerHTML = navbar();
+
+let footer_div = document.querySelector(".footer");
+footer_div.innerHTML = footer();
+
+
+
 let p1 = document.getElementById("p1");
 let p2 = document.getElementById("p2");
 let p3 = document.getElementById("p3");
