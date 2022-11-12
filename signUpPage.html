@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b1dda78bf2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./styles/signUpPage.css" />
     <title>Document</title>
   </head>
@@ -11,42 +15,94 @@
     <div class="container">
       <div id="signup-block">
         <div id="register-form">
-          <h1>Sign up for Mailchimp</h1>
-          <h3>Create a free account or <span class="sky-blue" id="login">login</span></h3>
-          <form id="reg_form">
-            <input type="text" id="name"
-            class="padd-input marg-input" placeholder="Name" />
-            <input  type="text" id="email" class="padd-input marg-input" placeholder="Email" />
-            <input type="text" id="username" class="padd-input marg-input" placeholder="Username" />
-            <input type="text" id="password" class="padd-input marg-input" placeholder="Password" />
+          <h1 class="heading">Sign up for Mailchamp</h1>
+          <h3 class="para">
+            Create a free account or
+            <span class="sky-blue" id="login-link">login</span>
+          </h3>
+          <form id="reg_form" action="/action_page.php">
+            <label class="para user">Name</label>
+
+            <input
+              type="text"
+              id="name"
+              class="padd-input marg-input input-width"
+              required
+            />
+            <label class="para user">Email</label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="padd-input marg-input input-width"
+              required
+            />
+            <label class="para user">Username</label>
+
+            <input
+              type="text"
+              id="username"
+              class="padd-input marg-input input-width"
+              required
+            />
+            <label class="para user">Password</label>
+
+            <div class="input-box">
+            
+            <input 
+              type="password"
+              id="password"
+              class="padd-input marg-input ex-width"
+              required
+            />
+            <div id="eye">
+              <span
+                toggle="#password-field"
+                class="fa fa-fw fa-eye field-icon toggle-password"
+              ></span>
+            </div>
+            </div>
+            
             <div id="message">
               <ul class="message">
                 <li id="letter" class="invalid">
-                  <span>One lowercase character</span>
+                  <span class="black">One lowercase character</span>
                 </li>
                 <li id="capital" class="invalid">
-                  <span>One uppercase character</span>
+                  <span class="black">One uppercase character</span>
                 </li>
-                <li id="number" class="invalid"><span> One number</span></li>
+                <li id="number" class="invalid"><span class="black"> One number</span></li>
                 <li id="char" class="invalid">
-                  <span> One spacial character</span>
+                  <span class="black"> One spacial character</span>
                 </li>
-      
+
                 <li id="length" class="invalid">
-                  <span>8 characters minimum</span>
+                  <span class="black">8 characters minimum</span>
                 </li>
               </ul>
             </div>
-  
-            <input type="text" id="mobile" class="padd-input marg-input" placeholder="Mobile" />
-            <input type="text" id="description" class="padd-input marg-input" placeholder="Description" />
+            <label class="para text-border">Mobile</label>
+
+            <input
+              type="number"
+              id="mobile"
+              class="padd-input marg-input black input-width"
+              required
+            />
+
+            <input
+              type="submit"
+              id="register"
+              class="signup-btn"
+              value="Sign Up"
+            />
           </form>
-  
-          <button id="register" class="signup-btn">Register</button>
-       
-        
+        </div>
       </div>
-    </div>
+      <div class="bg-img">
+        <img src="https://login.mailchimp.com/release/1.1.12db68f65958dbea8011b2efdf4e026e5d28738e2/images/brand_assets/illos/art-hero-flowers.png" alt="">
+      </div>
     </div>
   </body>
 </html>
