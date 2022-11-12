@@ -151,29 +151,27 @@ body{
   #space{
     margin-left: 25%;
   }
-  #arrow{
-    margin-left: 90px;
-  }
+
   #arrow2{
-    margin-left: 115px;
+    margin-left: 34%;
   }
   #arrow3{
-    margin-left: 120px;
+    margin-left: 35%;
   }
   #arrow4{  
-    margin-left: 49%;
+    margin-left: 50%;
   }
   #arrow6{
-   margin-left: 37%;
+   margin-left: 40%;
   }
   #arrow10{
-    margin-left: 40%;
+    margin-left: 45%;
   }
   #arrow11{
     margin-left: 50%;
   }
   #arrow{
-    margin-left: 20%;
+    margin-left: 26%;
   }
   #arrow12{
     margin-left: 60%;
@@ -182,6 +180,12 @@ body{
     margin-left: 65%;
   }
 
+  #arrow14{
+    margin-left: 46%;
+  }
+#arrow15{
+  margin-left: 28%;
+}
 
 #img{
   width: 100px;
@@ -207,7 +211,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -150px;
+  margin-top: -130px;
 }
 .con{
   height: 600px;
@@ -231,7 +235,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -220px;
+  margin-top: -190px;
   line-height: 20px;
 }
 .con1{
@@ -257,7 +261,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -420px;
+  margin-top: -370px;
   line-height: 20px;
 }
 .con2{
@@ -282,7 +286,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -490px;
+  margin-top: -430px;
   line-height: 20px;
 }
 .con3{
@@ -307,7 +311,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -650px;
+  margin-top: -555px;
   line-height: 20px;
 }
 .con4{
@@ -367,7 +371,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -450px;
+  margin-top: -430px;
   line-height: 20px;
 }
 .con6{
@@ -392,7 +396,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -510px;
+  margin-top: -491px;
   line-height: 20px;
 }
 .con7{
@@ -415,7 +419,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -140px;
+  margin-top: -129px;
   line-height: 20px;
 }
 .con8{
@@ -464,7 +468,7 @@ body{
   padding-left: 20px ;
   color: black;
   margin-left: 380px;
-  margin-top: -450px;
+  margin-top: -440px;
   line-height: 20px;
 }
 .con10{
