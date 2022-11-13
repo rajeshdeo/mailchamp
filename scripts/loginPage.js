@@ -29,8 +29,8 @@ const login = () => {
 };
 
 function redirectToHomePage(){
-  // window.location.replace('index.html')
-  console.log('redire to home page')
+  window.location.replace('index.html')
+  // console.log('redire to home page')
 }
 
 function searchUserName() {
