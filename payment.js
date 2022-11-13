@@ -10,7 +10,7 @@ function myfun(){
     {
         alert("Please fill the details !")
     }
-    else if(input.length<16 ||input.length>16 ){
+    else if(input.length<16 || input.length>16 ){
         alert("Invalid Card Number")
     }
 
