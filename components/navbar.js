@@ -459,7 +459,8 @@ function navbar(){
   </div>
 
   <div id="mid-nav">
-    <img src="https://i.ibb.co/3kgB0Q2/Mail-Champ.png" alt="">
+    
+  <a href="index.html"><img src="https://i.ibb.co/3kgB0Q2/Mail-Champ.png" alt=""></a>
   </div>
   <div id="right-nav">
     <div id="right-nav-sale">
