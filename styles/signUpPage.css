@@ -29,7 +29,7 @@ form {
 input {
   background-color: transparent;
   border: 0;
-  border-bottom: 2px solid #db4a3c;
+  border-bottom: 2px solid #4296cb;
 }
 
 .black {
@@ -63,7 +63,7 @@ input {
   padding-left: 15px;
 }
 .sky-blue {
-  color: #db4a3c;
+  color: #4296cb;
   border-bottom: 1px solid #4296cb;
 }
 #login-link{
@@ -136,7 +136,7 @@ div {
   padding-left: 15px;
 }
 .signup-btn {
-  background-color: #db4a3c;
+  background-color: #4296cb;
   font-size: 20px;
   padding: 14px 30px;
   border: 0;

@@ -18,13 +18,18 @@ const login = () => {
     ) {
       status = true;
       redirectToHomePage();
+      let data = userDataArr[i];
+      console.log('data:', data)
+      
+      // localStorage('home',JSON.stringify(userDataArr[i]));
+
     }
   }
   console.log(status);
 };
 
 function redirectToHomePage(){
-  // window.location.replace('')
+  // window.location.replace('index.html')
   console.log('redire to home page')
 }
 
@@ -70,8 +75,8 @@ function mouseOut() {
   hover_.style.color = "#4296cb";
 }
 function redirectToSignUp() {
-  // window.location.replace('signUpPage.html');
-  console.log("redirect to sign up page");
+  window.location.replace('signUpPage.html');
+  // console.log("redirect to sign up page");
 }
 let id;
 
@@ -87,7 +92,7 @@ function debounce(func, delay) {
 window.addEventListener("load", function () {
   let loginbtn = document.getElementById("login");
   loginbtn.onclick = () => {
-    login();
+    login(event);
     match.style.display = "none";
     notMatch.style.display = "none";
   };
