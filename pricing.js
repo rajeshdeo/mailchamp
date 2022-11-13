@@ -30,6 +30,17 @@ let p2_button = document.getElementById("p2_button");
 let p3_button = document.getElementById("p3_button");
 let p4_button = document.getElementById("p4_button");
 
+
+//button of p1
+
+p1_button.onclick=()=>{
+    window.location.href="payment.html";
+}
+
+
+
+
+
 // Contacts Functionality
 let contacts = document.getElementById("contacts");
 contacts.onchange = () => {

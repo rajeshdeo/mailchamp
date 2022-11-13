@@ -10,15 +10,19 @@
             font-size: 35px;
         }
         .turn_emails_div{
-            width: 40%;
+            width: 58%;
             text-align: center;
             margin: auto;
+            padding-top: 150px;
+            font-size: 20px;
         }
         .turn_emails_revenue{
             font-weight: 300;
             font-family: Means Web,Georgia,Times,Times New Roman,serif;
             color: #241c15;
             letter-spacing: -.0625rem;
+            font-size: 50px;
+            margin-bottom: -20px;
             
         }
         .win_new_customers{
@@ -61,7 +65,7 @@
             
             color:black;
             text-decoration: none;
-            z-index: 5;
+            z-index: 1;
         }
         
         .convert_automation:hover{

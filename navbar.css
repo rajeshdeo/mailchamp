@@ -13,7 +13,13 @@ body{
 #navbar>div>div:hover{
     color:#007c89;
 }
+/* #pricing_nav_part:hover{
+  color:#007c89 ;
+} */
 
+/* #dropdown:hover{
+  color:#007c89;
+} */
 #left-nav{
     display: flex;
     height: auto;

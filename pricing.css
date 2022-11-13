@@ -12,7 +12,15 @@ body {
 /* #pointer{
     cursor: pointer;
 } */
+#navbar{
+    margin-top: -20px;
+}
 
+#right-nav-sale{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -20px;
+}
 #top_div {
     display: flex;
     width: 100%;
@@ -37,6 +45,14 @@ body {
     border-bottom: 0px;
 }
 
+
+/* .how_many_contacts{
+        width: 35%;
+        margin: auto;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+} */
 table {
     /* border: solid; */
     width: 85%;

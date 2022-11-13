@@ -71,7 +71,7 @@ function navbar(){
             <h6>Audience Managment<i id="arrow3" class="fa-light fa-greater-than"></i></h6>
             <div class="con2">
               <div>
-                <h6 style="margin-top:30px;">MarkingCRM</h6>
+                <h6 style="margin-top:30px;">Marking CRM</h6>
                 <p style="margin-top:-30px;">Get to know your audience and find new ways to market to them.</p>
               </div>
               <div>
@@ -454,7 +454,7 @@ function navbar(){
 
     </div>
     <div class="dropdown">
-      <p><a href="../pricing.html">Pricing</a></p>
+      <p class="pricing_section_div"><a href="pricing.html" style="color:black;text-decoration:none">Pricing</a></p>
     </div>
   </div>
 
