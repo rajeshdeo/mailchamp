@@ -10,23 +10,22 @@ class User {
   validatePassword(password) {
     return password.length < 8 ? false : true;
   }
-  validateAll(n, e, u, p, m, d){
-    console.log(n, e, u, p, m, d)
+  validateAll(n, e, u, p, m){
+    console.log(n, e, u, p, m)
     let N=n.trim();
     let E=e.trim()
     let U=u.trim()
     let P=p.trim()
     let M=m.trim()
-    let D=d.trim()
-    console.log(N,E,U,P,M,D);
-    if(N!=''&&E!=''&&U!=''&&P!=''&&M!=''&&D!=''){
+    console.log(N,E,U,P,M);
+    if(N!=''&&E!=''&&U!=''&&P!=''&&M!=''){
       return true;
     }
     return false;
   }
 
-   signUp(n, e, u, p, m, d) {
-    let isValidated = this.validateUserName(u) && this.validatePassword(p)&&this.validateAll(n, e, u, p, m, d);
+   signUp(n, e, u, p, m) {
+    let isValidated = this.validateUserName(u) && this.validatePassword(p)&&this.validateAll(n, e, u, p, m);
 
     if (isValidated) {
       this.name = n;
@@ -34,7 +33,6 @@ class User {
       this.username = u;
       this.password = p;
       this.mobile = m;
-      this.description = d;
      
       let uesrData = {
         name:n,
@@ -42,7 +40,6 @@ class User {
         username:u,
         password:p,
         mobile:m,
-        description:d,
       }
 
       let userDataArr = JSON.parse(localStorage.getItem("user")) || [];
@@ -66,11 +63,11 @@ let Register = () => {
   const username = regForm.username.value;
   const password = regForm.password.value;
   const mobile = regForm.mobile.value;
-  const description = regForm.description.value;
+  // const description = regForm.description.value;
 
-  user.signUp(name, email, username, password, mobile, description);
+  user.signUp(name, email, username, password, mobile);
   console.log("user:", user);
-  // console.log(name,email,username,password,mobile,description)
+  // console.log(name,email,username,password,mobile)
 };
 
 var myInput = document.getElementById("password");
@@ -143,8 +140,8 @@ myInput.onkeyup = function () {
 };
 
 function redirectToLoginPage(){
-  // window.location.replace('signUpPage.html');
-  console.log("redirect to sign up page");
+  window.location.href = "loginPage.html"
+
 }
 
 function myFunction() {
@@ -156,23 +153,29 @@ function myFunction() {
   }
 }
 function mouseOver() {
-  let hover_ = document.getElementById("login");
-  hover_.style.color = "#fff";
+  let hover_ = document.getElementById("login-link");
+  hover_.style.color = "black";
 }
 function mouseOut() {
-  let hover_ = document.getElementById("login");
-  hover_.style.color = "#db4a3c";
+  let hover_ = document.getElementById("login-link");
+  hover_.style.color = "#4296cb";
 }
+let btn2 = document.querySelector("#login-link");
+btn2.onclick = () => {
+    // console.log(" login page");
+    redirectToLoginPage();
+} 
 
 window.addEventListener("load", function () {
   let register = document.getElementById("register");
   register.onclick = () => {
     Register();
+    redirectToLoginPage();
   };
-  let login_btn = document.getElementById('login')
+  let login_btn = document.getElementById('login-link')
   login_btn.onclick=()=>{
     redirectToLoginPage()
-  }
+  };
   login_btn.onmouseover = () => {
     mouseOver();
   };
