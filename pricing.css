@@ -1,10 +1,10 @@
 body {
     font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
     /* font-family: "Means Web", Georgia, Times, "Times New Roman", serif; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 31px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* font-size: 23px; */
+    /* line-height: 31px; */
     padding: 0px;
     /* padding-right: -5px; */
 }
@@ -45,14 +45,41 @@ body {
     border-bottom: 0px;
 }
 
+#sort_div{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: solid; */
+}
 
-/* .how_many_contacts{
-        width: 35%;
-        margin: auto;
-        display: flex;
-        margin-bottom: 20px;
-        justify-content: space-between;
-} */
+#sort_div>div{
+    border: 0.0625rem solid #8c8c8c;
+    padding: 10px 20px;
+}
+
+#sort_div>div:first-child{
+    background-color: #f6f6f4;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#sort_div>div:last-child{
+    padding: 0px;
+}
+
+#contacts{
+    width: 100%;
+    border: none;
+    padding: 8px 100px 8px 20px;
+    color: #241c15;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif; 
+    font-size: 22px;
+    /* line-height: 24px; */
+}
+
 table {
     /* border: solid; */
     width: 85%;
@@ -412,5 +439,3 @@ table+div>button{
 #last_div>div>img{
     width: 60%;
 }
-
-

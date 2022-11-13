@@ -94,11 +94,15 @@ select{
     margin-left: 50px;
 }
 button{
-width: 70%;
+width: 76%;
 margin-left: 50px;
 height: 40px;
 background-color: #007c89;
 border: none;
 color: white;
 margin-top: 20px;
+}
+#rupee{
+    font-size: 14px;
+    margin-right:3px;
 }
